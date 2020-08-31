@@ -34,11 +34,11 @@ body {
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.875rem;
 }
 .display-7 {
   font-family: 'Montserrat', sans-serif;
@@ -75,9 +75,9 @@ body {
     line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
     font-size: 1.12rem;
@@ -830,7 +830,7 @@ a {
   min-height: 70px;
   transition: all .3s;
   border-bottom: 1px solid transparent;
-  background: rgba(110, 199, 242, 0.6);
+  background: rgba(110, 199, 242, 0.9);
 }
 .cid-s9b6DgWuY9 .navbar.opened {
   transition: all .3s;
@@ -1077,6 +1077,10 @@ a {
     left: -1rem;
   }
 }
+.cid-s9b6DgWuY9 .link_menu:hover {
+  color: #fff !important;
+  transition: 0.5s ease !important;
+}
 .cid-s9b6XT1Gc2 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -1100,8 +1104,11 @@ a {
   }
 }
 .cid-s9b6XT1Gc2 .mbr-section-title {
-  color: #181513;
+  color: #0B2349 !important;
   text-align: left;
+  background: linear-gradient(45deg, #3b5998 20%, #005ff9 50%, #f8f8f8) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 .cid-s9b6XT1Gc2 .mbr-text,
 .cid-s9b6XT1Gc2 .mbr-section-btn {
@@ -1111,6 +1118,11 @@ a {
 .cid-s9b6XT1Gc2 .cust_color {
   color: #005FF9;
   font-size: 1.5rem;
+}
+.cid-s9b6XT1Gc2 span.cust_desk {
+  font-size: 1rem;
+  text-decoration: overline;
+  color: #005ff9;
 }
 .cid-s9bYqlxTeW {
   padding-top: 2rem;
@@ -1228,13 +1240,33 @@ a {
   color: white;
   width: 50px;
 }
+.cid-s6veBpjjcX .custom0 {
+  background: #3B5998;
+  color: white;
+  width: 50px;
+}
 .cid-s6veBpjjcX .custom1 {
-  background: #ff7300;
+  background: #4A76A8;
   color: white;
   width: 50px;
 }
 .cid-s6veBpjjcX .custom2 {
-  background: #01bf46;
+  background: #FF0000;
+  color: white;
+  width: 50px;
+}
+.cid-s6veBpjjcX .custom3 {
+  background: #7A4697;
+  color: white;
+  width: 50px;
+}
+.cid-s6veBpjjcX .custom4 {
+  background: #279EDA;
+  color: white;
+  width: 50px;
+}
+.cid-s6veBpjjcX .custom5 {
+  background: #43D45B;
   color: white;
   width: 50px;
 }
